@@ -8,9 +8,7 @@ RUN npm i
 
 COPY . .
 
-RUN npm run build
-
 EXPOSE 3000
 
 # Run the app
-CMD ["node", "dist/main"]
+CMD ["node", "src/app.js"]
